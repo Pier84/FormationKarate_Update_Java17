@@ -6,6 +6,6 @@ import com.intuit.karate.junit5.Karate;
 class TestRunner {
     @Karate.Test
     Karate testPlaceOrder() {
-        return Karate.run("classpath:ztrain/features/*.feature");
+        return Karate.run("classpath:ztrain/features/");
     }
 }
